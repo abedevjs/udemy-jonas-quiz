@@ -1,7 +1,16 @@
 function Error() {
   return (
     <p className="error">
-      <span>💥</span> There was an error fecthing questions.
+      💥 You have to run the server first. <br />
+      If you see this message, for solution visit{" "}
+      <a
+        href="https://github.com/abedevjs/udemy-jonas-quiz"
+        className="link"
+        target="_blank"
+        rel="noreferrer"
+      >
+        this page
+      </a>
     </p>
   );
 }
